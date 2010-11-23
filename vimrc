@@ -13,6 +13,7 @@ let mapleader=","
 let g:mapleader=","
 
 set title
+colorscheme ir_black
 set background=dark
 
 set backupdir=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
@@ -23,9 +24,6 @@ set smartindent
 set tabstop=2
 set shiftwidth=2
 set expandtab
-
-"autocmd FileType * set tabstop=2|set shiftwidth=2|set expandtab
-"autocmd FileType python set tabstop=4|set shiftwidth=4|set expandtab
 
 " Persistent undo
 try
@@ -58,6 +56,16 @@ set visualbell
 " Settings for Command-T
 set wildignore+=*.o,*.obj,.git,*.pyc
 
+" Use custom filetype behavior for markdown documents (pandoc)
+" autocmd Bufread,BufNewFile *.md set filetype=pandoc
+
 " Omni completion
 " set ofu=syntaxcomplete#Complete 
 " autocmd FileType python set omnifunc=pythoncomplete#Complete
+
+if has("gui_running")
+  if has("gui_macvim")
+    set gfn=Monaco:h12.00
+    "set columns=120
+  endif
+endif
