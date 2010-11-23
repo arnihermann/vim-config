@@ -63,6 +63,12 @@ set wildignore+=*.o,*.obj,.git,*.pyc
 " set ofu=syntaxcomplete#Complete 
 " autocmd FileType python set omnifunc=pythoncomplete#Complete
 
+" Nerdtree
+" map <F4> :NERDTree<CR>
+:noremap <Leader>n :NERDTreeToggle<CR>
+" let NERDTreeMouseMode=1 " Single click for everything
+
+" GUI specific behavior
 if has("gui_running")
   if has("gui_macvim")
     set gfn=Monaco:h12.00
