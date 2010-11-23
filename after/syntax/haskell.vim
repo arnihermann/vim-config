@@ -1,0 +1,1 @@
+../../lib/Haskell-Conceal/after/syntax/haskell.vim

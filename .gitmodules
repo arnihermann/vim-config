@@ -19,3 +19,6 @@
 [submodule "bundle/delimitMate"]
 	path = bundle/delimitMate
 	url = https://github.com/Raimondi/delimitMate.git
+[submodule "lib/Haskell-Conceal"]
+	path = lib/Haskell-Conceal
+	url = https://github.com/vim-scripts/Haskell-Conceal.git
