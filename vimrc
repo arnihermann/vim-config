@@ -28,10 +28,13 @@ set expandtab
 "autocmd FileType python set tabstop=4|set shiftwidth=4|set expandtab
 
 " Persistent undo
-set undodir=~/.vim/undodir
-set undofile
-set undolevels=1000 " maximum number of changes that can be undone
-set undoreload=10000 " maximum number lines to save for undo on a buffer reload
+try
+  set undodir=~/.vim/undodir
+  set undofile
+  set undolevels=1000 " maximum number of changes that can be undone
+  set undoreload=10000 " maximum number lines to save for undo on a buffer reload
+catch
+endtry
 
 " Intuitive backspacing in insert mode
 set backspace=indent,eol,start
