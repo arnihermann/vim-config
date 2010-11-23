@@ -7,7 +7,7 @@ My `.vim` folder.
     cd ~/.vim
     git submodule init
     git submodule update
-    cd bundles/Command-T
+    cd bundle/Command-T
     rake make
 
 This has only been tested on my macbook with OS X supplied vim and macvim.
