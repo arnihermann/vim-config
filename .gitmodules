@@ -22,3 +22,6 @@
 [submodule "lib/Haskell-Conceal"]
 	path = lib/Haskell-Conceal
 	url = https://github.com/vim-scripts/Haskell-Conceal.git
+[submodule "bundle/vim-irblack"]
+	path = bundle/vim-irblack
+	url = https://github.com/wgibbs/vim-irblack.git
