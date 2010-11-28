@@ -13,7 +13,7 @@ let mapleader=","
 let g:mapleader=","
 
 set title
-colorscheme ir_black
+colorscheme desert
 set background=dark
 
 set backupdir=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
@@ -72,6 +72,7 @@ set wildignore+=*.o,*.obj,.git,*.pyc
 if has("gui_running")
   if has("gui_macvim")
     set gfn=Monaco:h12.00
+    colorscheme ir_black
     "set columns=120
   endif
 endif
