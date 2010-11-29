@@ -73,6 +73,7 @@ if has("gui_running")
   if has("gui_macvim")
     set gfn=Monaco:h12.00
     colorscheme ir_black
+    set guioptions-=T
     "set columns=120
   endif
 endif
