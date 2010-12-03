@@ -68,6 +68,11 @@ set wildignore+=*.o,*.obj,.git,*.pyc
 :noremap <Leader>n :NERDTreeToggle<CR>
 " let NERDTreeMouseMode=1 " Single click for everything
 
+" Tab/shift-tab for indenting
+vmap <Tab> >gv
+vmap <S-Tab> <gv
+imap <S-Tab> <C-o><<
+
 " GUI specific behavior
 if has("gui_running")
   if has("gui_macvim")
