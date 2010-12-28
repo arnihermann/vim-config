@@ -31,3 +31,6 @@
 [submodule "bundle/vim-surround"]
 	path = bundle/vim-surround
 	url = https://github.com/tpope/vim-surround.git
+[submodule "lib/puppet"]
+	path = lib/puppet
+	url = https://github.com/puppetlabs/puppet.git
