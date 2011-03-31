@@ -7,7 +7,7 @@ set nocompatible
 set ignorecase 
 set smartcase
 set number
-set scrolloff=5
+"set scrolloff=5
 set wrap
 let mapleader=","
 let g:mapleader=","
