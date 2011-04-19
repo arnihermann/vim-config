@@ -7,13 +7,19 @@ set nocompatible
 set ignorecase 
 set smartcase
 set number
+set cursorline
+set ruler
+set showcmd
+"set mouse=a
+"set laststatus=2
 "set scrolloff=5
 set wrap
+"set iskeyword-=-,@
 let mapleader=","
 let g:mapleader=","
 
 set title
-colorscheme desert
+colorscheme solarized
 set background=dark
 
 set backupdir=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
@@ -77,7 +83,7 @@ imap <S-Tab> <C-o><<
 if has("gui_running")
   if has("gui_macvim")
     set gfn=Monaco:h12.00
-    colorscheme ir_black
+    colorscheme solarized
     set guioptions-=T
     "set columns=120
   endif
