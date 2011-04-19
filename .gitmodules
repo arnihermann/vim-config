@@ -34,3 +34,6 @@
 [submodule "lib/puppet"]
 	path = lib/puppet
 	url = https://github.com/puppetlabs/puppet.git
+[submodule "bundle/vim-colors-solarized"]
+	path = bundle/vim-colors-solarized
+	url = git://github.com/altercation/vim-colors-solarized.git
