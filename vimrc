@@ -19,7 +19,7 @@ let mapleader=","
 let g:mapleader=","
 
 set title
-colorscheme solarized
+colorscheme ir_black
 set background=dark
 
 set backupdir=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
@@ -83,7 +83,7 @@ imap <S-Tab> <C-o><<
 if has("gui_running")
   if has("gui_macvim")
     set gfn=Monaco:h12.00
-    colorscheme solarized
+    colorscheme ir_black
     set guioptions-=T
     "set columns=120
   endif
